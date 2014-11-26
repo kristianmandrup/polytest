@@ -1,0 +1,414 @@
+toms-Mac:cca tom$ cca run ios
+cca v0.5.0
+Running command: /Users/tom/Development/btmzup/cca/platforms/ios/cordova/run 
+Build settings from command line:
+    ARCHS = armv7 armv7s arm64
+    CONFIGURATION_BUILD_DIR = /Users/tom/Development/btmzup/cca/platforms/ios/build/device
+    SDKROOT = iphoneos8.1
+    SHARED_PRECOMPS_DIR = /Users/tom/Development/btmzup/cca/platforms/ios/build/sharedpch
+    VALID_ARCHS = armv7 armv7s arm64
+
+Build settings from configuration file '/Users/tom/Development/btmzup/cca/platforms/ios/cordova/build-debug.xcconfig':
+    CODE_SIGN_IDENTITY = iPhone Developer
+    CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist"
+
+=== BUILD TARGET CordovaLib OF PROJECT CordovaLib WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Btmzup OF PROJECT Btmzup WITH CONFIGURATION Debug ===
+
+Check dependencies
+Code Sign warning: Can't locate the specified Code Signing Resource Rules file ('"/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/ResourceRules.plist"').
+
+PhaseScriptExecution Copy\ www\ directory build/Btmzup.build/Debug-iphoneos/Btmzup.build/Script-304B58A110DAC018002A0835.sh
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    /bin/sh -c /Users/tom/Development/btmzup/cca/platforms/ios/build/Btmzup.build/Debug-iphoneos/Btmzup.build/Script-304B58A110DAC018002A0835.sh
+
+real	0m0.559s
+user	0m0.184s
+sys	0m0.300s
+
+CopyPNGFile build/device/Btmzup.app/icon-76.png Btmzup/Resources/icons/icon-76.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-76.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-76.png
+
+CopyPNGFile build/device/Btmzup.app/icon-40@2x.png Btmzup/Resources/icons/icon-40@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-40@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-40@2x.png
+
+CopyPNGFile build/device/Btmzup.app/icon-72.png Btmzup/Resources/icons/icon-72.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-72.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-72.png
+
+CopyPNGFile build/device/Btmzup.app/icon.png Btmzup/Resources/icons/icon.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon.png
+
+CopyPNGFile build/device/Btmzup.app/icon@2x.png Btmzup/Resources/icons/icon@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon@2x.png
+
+CopyPNGFile build/device/Btmzup.app/icon-50.png Btmzup/Resources/icons/icon-50.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-50.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-50.png
+
+CopyPNGFile build/device/Btmzup.app/icon-60@2x.png Btmzup/Resources/icons/icon-60@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-60@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-60@2x.png
+
+CopyPNGFile build/device/Btmzup.app/icon-small.png Btmzup/Resources/icons/icon-small.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-small.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-small.png
+
+CopyPNGFile build/device/Btmzup.app/icon-small@2x.png Btmzup/Resources/icons/icon-small@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-small@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-small@2x.png
+
+CopyPNGFile build/device/Btmzup.app/icon-40.png Btmzup/Resources/icons/icon-40.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-40.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-40.png
+
+CopyPNGFile build/device/Btmzup.app/icon-60.png Btmzup/Resources/icons/icon-60.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-60.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-60.png
+
+CopyPNGFile build/device/Btmzup.app/icon-50@2x.png Btmzup/Resources/icons/icon-50@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-50@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-50@2x.png
+
+CopyPNGFile build/device/Btmzup.app/icon-76@2x.png Btmzup/Resources/icons/icon-76@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-76@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-76@2x.png
+
+CopyPNGFile build/device/Btmzup.app/icon-72@2x.png Btmzup/Resources/icons/icon-72@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-72@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-72@2x.png
+
+ProcessInfoPlistFile build/device/Btmzup.app/Info.plist Btmzup/Btmzup-Info.plist
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-infoPlistUtility /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Btmzup-Info.plist -genpkginfo /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/tom/Development/btmzup/cca/platforms/ios/build/Btmzup.build/Debug-iphoneos/Btmzup.build/MainViewController-PartialInfo.plist -o /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Info.plist
+
+GenerateDSYMFile build/device/Btmzup.app.dSYM build/device/Btmzup.app/Btmzup
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Btmzup -o /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app.dSYM
+
+ProcessProductPackaging /Users/tom/Library/MobileDevice/Provisioning\ Profiles/6577427d-ad0e-48b7-bca6-d0a7ed371ebe.mobileprovision build/device/Btmzup.app/embedded.mobileprovision
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-productPackagingUtility /Users/tom/Library/MobileDevice/Provisioning\ Profiles/6577427d-ad0e-48b7-bca6-d0a7ed371ebe.mobileprovision -o /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/embedded.mobileprovision
+
+Touch build/device/Btmzup.app
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /usr/bin/touch -c /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app
+
+ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/Entitlements.plist build/Btmzup.build/Debug-iphoneos/Btmzup.build/Btmzup.app.xcent
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/tom/Development/btmzup/cca/platforms/ios/build/Btmzup.build/Debug-iphoneos/Btmzup.build/Btmzup.app.xcent
+
+CodeSign build/device/Btmzup.app
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    
+Signing Identity:     "iOS Development: Thomas Markiewicz (6AX936968D)"
+Provisioning Profile: "iOSTeam Provisioning Profile: *"
+                      (6577427d-ad0e-48b7-bca6-d0a7ed371ebe)
+
+    /usr/bin/codesign --force --sign BDFC8F0A6921CD53DA8399DE8ABC978F20AE4023 --entitlements /Users/tom/Development/btmzup/cca/platforms/ios/build/Btmzup.build/Debug-iphoneos/Btmzup.build/Btmzup.app.xcent /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app
+/Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app: replacing existing signature
+
+** BUILD SUCCEEDED **
+
+[....] Waiting for iOS device to be connected
+[....] Using iPad 4 'Thomas's iPad' (efd93bfcd408d6664fa1d4f03621d2dd36276d5f) (efd93bfcd408d6664fa1d4f03621d2dd36276d5f).
+------ Install phase ------
+[  0%] Found iPad 4 'Thomas's iPad' (efd93bfcd408d6664fa1d4f03621d2dd36276d5f) connected through USB, beginning install
+[  5%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/META-INF/ to device
+[  5%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/META-INF/com.apple.ZipMetadata.plist to device
+[  5%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/_CodeSignature/ to device
+[  5%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/_CodeSignature/CodeResources to device
+[  5%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Btmzup to device
+[  9%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/config.xml to device
+[  9%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-568h@2x~iphone.png to device
+[ 10%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-667h.png to device
+[ 10%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-736h.png to device
+[ 11%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-Landscape-736h.png to device
+[ 12%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-Landscape@2x~ipad.png to device
+[ 13%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-Landscape~ipad.png to device
+[ 13%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-Portrait@2x~ipad.png to device
+[ 15%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default-Portrait~ipad.png to device
+[ 15%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default@2x~iphone.png to device
+[ 16%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Default~iphone.png to device
+[ 16%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/embedded.mobileprovision to device
+[ 16%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-40.png to device
+[ 16%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-40@2x.png to device
+[ 17%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-50.png to device
+[ 17%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-50@2x.png to device
+[ 17%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-60.png to device
+[ 17%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-60@2x.png to device
+[ 17%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-60@3x.png to device
+[ 17%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-72.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-72@2x.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-76.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-76@2x.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-small.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon-small@2x.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon.png to device
+[ 18%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/icon@2x.png to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/Info.plist to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/MainViewController.nib to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/PkgInfo to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/ to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/ to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/chrome_logo.png to device
+[ 19%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/ to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon114.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon128.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon144.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon16.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon36.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon48.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon57.png to device
+[ 20%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon72.png to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/assets/icons/icon96.png to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/background.js to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower.json to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/ to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/ to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/bower.json to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/core-ajax.html to device
+[ 21%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/core-xhr.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/demo-progress.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/demo.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/index.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/metadata.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/README.md to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/test/ to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/test/core-ajax-progress.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/test/core-ajax-race.html to device
+[ 22%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/test/core-ajax.html to device
+[ 23%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-ajax/test/index.html to device
+[ 23%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/ to device
+[ 23%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/bowager-logo.png to device
+[ 23%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/bower.json to device
+[ 23%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/core-component-page.html to device
+[ 24%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/demo.html to device
+[ 24%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/index.html to device
+[ 24%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-component-page/README.md to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/ to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/bower.json to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/core-pages.css to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/core-pages.html to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/demo.html to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/index.html to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/metadata.html to device
+[ 25%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-pages/README.md to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/ to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/bower.json to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/core-selection.html to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/demo.html to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/index.html to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/README.md to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/test/ to device
+[ 26%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/test/basic.html to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/test/index.html to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selection/test/multi.html to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/ to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/bower.json to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/core-selector.html to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/demo.html to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/index.html to device
+[ 27%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/metadata.html to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/README.md to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/ to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/activate-event.html to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/basic.html to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/content.html to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/index.html to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/multi.html to device
+[ 28%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/next-previous.html to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/selected-attr-prop.html to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/core-selector/test/template-repeat.html to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/ to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/bower.json to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/build.log to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/layout.html to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/polymer.html to device
+[ 29%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/polymer.js to device
+[ 32%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/polymer.min.js to device
+[ 33%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/polymer/README.md to device
+[ 33%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/ to device
+[ 33%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/bower.json to device
+[ 33%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/CustomElements.js to device
+[ 34%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/CustomElements.min.js to device
+[ 34%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/HTMLImports.js to device
+[ 34%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/HTMLImports.min.js to device
+[ 34%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/README.md to device
+[ 35%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/ShadowDOM.js to device
+[ 36%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/ShadowDOM.min.js to device
+[ 36%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/webcomponents-lite.js to device
+[ 37%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/webcomponents-lite.min.js to device
+[ 37%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/webcomponents.js to device
+[ 39%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/bower_components/webcomponentsjs/webcomponents.min.js to device
+[ 40%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/components/ to device
+[ 40%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/components/btmzup-app.html to device
+[ 40%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/components/btmzup-page-login.html to device
+[ 40%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/components/btmzup-page-signup.html to device
+[ 40%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/components/btmzup-page-welcome.html to device
+[ 40%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/cordova.js to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/cordova_plugins.js to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/index.css to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/index.html to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/manifest.json to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/manifest.mobile.json to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/ to device
+[ 41%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/ to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/ to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/DirectoryReader.js to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/Entry.js to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/File.js to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileEntry.js to device
+[ 42%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileError.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileReader.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileSystem.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/fileSystemPaths.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/fileSystems-roots.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/fileSystems.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileUploadOptions.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileUploadResult.js to device
+[ 43%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/FileWriter.js to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/Flags.js to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/ios/ to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/ios/FileSystem.js to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/LocalFileSystem.js to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/Metadata.js to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/ProgressEvent.js to device
+[ 44%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/requestFileSystem.js to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.inappbrowser/ to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.inappbrowser/www/ to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.network-information/ to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.network-information/www/ to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.network-information/www/Connection.js to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.network-information/www/network.js to device
+[ 45%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.statusbar/ to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.statusbar/www/ to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.apache.cordova.statusbar/www/statusbar.js to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/ to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/api/ to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/api/app/ to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/api/app/window.js to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/api/helpers/ to device
+[ 46%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/api/helpers/ChromeExtensionURLs.ios.js to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/api/mobile.js to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/chromeapp.html to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/chromeappstyles.css to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.bootstrap/chromebgpage.html to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.common/ to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.common/errors.js to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.common/events.js to device
+[ 47%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.common/helpers.js to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.common/stubs.js to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.i18n/ to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.i18n/i18n.js to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.polyfill.xhr_features/ to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.polyfill.xhr_features/xhr-blob.js to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/ to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/api/ to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/api/app/ to device
+[ 48%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/api/app/runtime.js to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/api/runtime.js to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/lib/ to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/lib/CryptoJS/ to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/lib/CryptoJS/enc-base64-min.js to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.runtime/lib/CryptoJS/sha256.js to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.storage/ to device
+[ 49%] Copying /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app/www/plugins/org.chromium.storage/storage.js to device
+[ 52%] CreatingStagingDirectory
+[ 57%] ExtractingPackage
+[ 60%] InspectingPackage
+[ 60%] TakingInstallLock
+[ 65%] PreflightingApplication
+[ 65%] InstallingEmbeddedProfile
+[ 70%] VerifyingApplication
+[ 75%] CreatingContainer
+[ 80%] InstallingApplication
+[ 85%] PostflightingApplication
+[ 90%] SandboxingApplication
+[ 95%] GeneratingApplicationMap
+[100%] Installed package /Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app
+------ Debug phase ------
+Starting debug of iPad 4 'Thomas's iPad' (efd93bfcd408d6664fa1d4f03621d2dd36276d5f) connected through USB...
+[  0%] Looking up developer disk image
+[ 95%] Developer disk image mounted successfully
+[100%] Connecting to remote debug server
+-------------------------
+(lldb) command source -s 0 '/tmp/fruitstrap-lldb-prep-cmds-efd93bfcd408d6664fa1d4f03621d2dd36276d5f'
+Executing commands in '/private/tmp/fruitstrap-lldb-prep-cmds-efd93bfcd408d6664fa1d4f03621d2dd36276d5f'.
+(lldb)     platform select remote-ios --sysroot '/Users/tom/Library/Developer/Xcode/iOS DeviceSupport/8.1.1 (12B435)/Symbols'
+  Platform: remote-ios
+ Connected: no
+  SDK Path: "/Users/tom/Library/Developer/Xcode/iOS DeviceSupport/8.1.1 (12B435)/Symbols"
+(lldb)     target create "/Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app"
+Current executable set to '/Users/tom/Development/btmzup/cca/platforms/ios/build/device/Btmzup.app' (armv7).
+(lldb)     script fruitstrap_device_app="/private/var/mobile/Containers/Bundle/Application/732300E3-222D-4B70-ADE5-6B36AC4AFC16/Btmzup.app"
+(lldb)     script fruitstrap_connect_url="connect://127.0.0.1:12345"
+(lldb)     command script import "/tmp/fruitstrap_efd93bfcd408d6664fa1d4f03621d2dd36276d5f.py"
+(lldb)     command script add -f fruitstrap_efd93bfcd408d6664fa1d4f03621d2dd36276d5f.connect_command connect
+(lldb)     command script add -s asynchronous -f fruitstrap_efd93bfcd408d6664fa1d4f03621d2dd36276d5f.run_command run
+(lldb)     command script add -s asynchronous -f fruitstrap_efd93bfcd408d6664fa1d4f03621d2dd36276d5f.autoexit_command autoexit
+(lldb)     command script add -s asynchronous -f fruitstrap_efd93bfcd408d6664fa1d4f03621d2dd36276d5f.safequit_command safequit
+(lldb)     connect
+(lldb)     run
+Process 0 connected
+success
+Process 353 stopped
+* thread #1: tid = 0xf6e2, 0x1fe89000 dyld`_dyld_start
+    frame #0: 0x1fe89000 dyld`_dyld_start
+dyld`_dyld_start:
+-> 0x1fe89000:  mov    r8, sp
+   0x1fe89004:  sub    sp, sp, #0x10
+   0x1fe89008:  bic    sp, sp, #0x7
+   0x1fe8900c:  ldr    r3, [pc, #112]            ; _dyld_start + 132
+2014-11-26 08:44:24.244 Btmzup[353:63202] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///private/var/mobile/Containers/Data/Application/59BE02D0-3025-4DEE-8CA4-E1B9DEC6AB83/Library/Cookies/Cookies.binarycookies
+2014-11-26 08:44:25.674 Btmzup[353:63202] Apache Cordova native platform version 3.7.0 is starting.
+2014-11-26 08:44:25.676 Btmzup[353:63202] Multi-tasking -> Device: YES, App: YES
+2014-11-26 08:44:25.689 Btmzup[353:63202] Unlimited access to network resources
+2014-11-26 08:44:25.708 Btmzup[353:63202] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2014-11-26 08:44:26.516 Btmzup[353:63202] [CDVTimer][file] 153.449059ms
+2014-11-26 08:44:26.928 Btmzup[353:63202] [CDVTimer][statusbar] 410.490036ms
+2014-11-26 08:44:26.929 Btmzup[353:63202] [CDVTimer][chromenavigation] 0.126004ms
+2014-11-26 08:44:26.930 Btmzup[353:63202] [CDVTimer][chromebootstrap] 0.906050ms
+2014-11-26 08:44:26.930 Btmzup[353:63202] [CDVTimer][chromeextensionurls] 0.169992ms
+2014-11-26 08:44:26.931 Btmzup[353:63202] [CDVTimer][TotalPluginStartup] 568.211019ms
+2014-11-26 08:44:27.753 Btmzup[353:63202] Resetting plugins due to page load.
+(lldb)  
+

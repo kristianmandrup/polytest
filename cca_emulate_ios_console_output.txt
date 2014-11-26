@@ -1,0 +1,117 @@
+toms-Mac:cca tom$ cca emulate ios
+cca v0.5.0
+Running command: /Users/tom/Development/btmzup/cca/platforms/ios/cordova/run --emulator
+Build settings from command line:
+    ARCHS = i386
+    CONFIGURATION_BUILD_DIR = /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator
+    SDKROOT = iphonesimulator8.1
+    SHARED_PRECOMPS_DIR = /Users/tom/Development/btmzup/cca/platforms/ios/build/sharedpch
+    VALID_ARCHS = i386
+
+=== BUILD TARGET CordovaLib OF PROJECT CordovaLib WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Btmzup OF PROJECT Btmzup WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution Copy\ www\ directory build/Btmzup.build/Debug-iphonesimulator/Btmzup.build/Script-304B58A110DAC018002A0835.sh
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    /bin/sh -c /Users/tom/Development/btmzup/cca/platforms/ios/build/Btmzup.build/Debug-iphonesimulator/Btmzup.build/Script-304B58A110DAC018002A0835.sh
+
+real	0m0.581s
+user	0m0.187s
+sys	0m0.310s
+
+CpResource Btmzup/Resources/icons/icon-76.png build/emulator/Btmzup.app/icon-76.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-76.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-40@2x.png build/emulator/Btmzup.app/icon-40@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-40@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-72.png build/emulator/Btmzup.app/icon-72.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-72.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon.png build/emulator/Btmzup.app/icon.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon@2x.png build/emulator/Btmzup.app/icon@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-50.png build/emulator/Btmzup.app/icon-50.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-50.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-60@2x.png build/emulator/Btmzup.app/icon-60@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-60@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-small.png build/emulator/Btmzup.app/icon-small.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-small.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-small@2x.png build/emulator/Btmzup.app/icon-small@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-small@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-40.png build/emulator/Btmzup.app/icon-40.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-40.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-60.png build/emulator/Btmzup.app/icon-60.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-60.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-50@2x.png build/emulator/Btmzup.app/icon-50@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-50@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-76@2x.png build/emulator/Btmzup.app/icon-76@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-76@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+CpResource Btmzup/Resources/icons/icon-72@2x.png build/emulator/Btmzup.app/icon-72@2x.png
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Resources/icons/icon-72@2x.png /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+ProcessInfoPlistFile build/emulator/Btmzup.app/Info.plist Btmzup/Btmzup-Info.plist
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    builtin-infoPlistUtility /Users/tom/Development/btmzup/cca/platforms/ios/Btmzup/Btmzup-Info.plist -genpkginfo /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/tom/Development/btmzup/cca/platforms/ios/build/Btmzup.build/Debug-iphonesimulator/Btmzup.build/MainViewController-PartialInfo.plist -o /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app/Info.plist
+
+GenerateDSYMFile build/emulator/Btmzup.app.dSYM build/emulator/Btmzup.app/Btmzup
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app/Btmzup -o /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app.dSYM
+
+Touch build/emulator/Btmzup.app
+    cd /Users/tom/Development/btmzup/cca/platforms/ios
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/tools:/Users/tom/Development/adt-bundle-mac-x86_64-20140702/sdk/platform-tools"
+    /usr/bin/touch -c /Users/tom/Development/btmzup/cca/platforms/ios/build/emulator/Btmzup.app
+
+** BUILD SUCCEEDED **
+
+2014-11-26 06:48:45.678 ios-sim[1612:10261] stderrPath: /Users/tom/Development/btmzup/cca/platforms/ios/cordova/console.log
+2014-11-26 06:48:45.679 ios-sim[1612:10261] stdoutPath: /Users/tom/Development/btmzup/cca/platforms/ios/cordova/console.log
+toms-Mac:cca tom$ 
+

@@ -1,0 +1,39 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+<link rel="import" href="../bower_components/core-pages/core-pages.html">
+
+<link rel="import" href="../components/btmzup-page-welcome.html">
+<link rel="import" href="../components/btmzup-page-login.html">
+<link rel="import" href="../components/btmzup-page-signup.html">
+
+<polymer-element name="btmzup-app">
+
+    <template>
+
+        <style>
+
+        </style>
+
+        <h1>App</h1>
+
+        <core-pages id="pages" selected="0">
+            <btmzup-page-welcome></btmzup-page-welcome>
+            <btmzup-page-login></btmzup-page-login>
+            <btmzup-page-signup></btmzup-page-signup>
+        </core-pages>
+
+    </template>
+
+    <script>
+        Polymer('btmzup-app', {
+            ready: function() {
+                console.log("App ready");
+                document.addEventListener('click', function() {
+                    var pages = this.$.pages;
+                    pages.selected = (pages.selected + 1) % pages.children.length;
+                }.bind(this));
+            }
+        });
+    </script>
+
+</polymer-element>

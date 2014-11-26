@@ -1,0 +1,2 @@
+deviceready has not fired after 5 seconds.               cordova.js:1169
+cordova.js:1162Channel not fired: onDOMContentLoaded     cordova.js:1162
